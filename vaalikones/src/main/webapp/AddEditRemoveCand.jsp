@@ -30,7 +30,7 @@ and open the template in the editor.
             <form action="Add.jsp"> <!-- ohjaa Lisää ehdokas -sivulle -->
             <input id="submitnappi" type="submit" value="Lisää ehdokas" name="btnLisaa" />                                                              
             </form>
-            <form action="Edit.jsp"> <!-- ohjaa Muokkaa ehdokasta -sivulle -->
+            <form action="Muokkaa.jsp"> <!-- ohjaa Muokkaa ehdokasta -sivulle -->
             <input id="submitnappi" type="submit" value="Muokkaa ehdokasta" name="btnMuokkaa" />      
             </form>
             <form action="Poista.jsp"> <!-- ohjaa Poista ehdokas -sivulle -->

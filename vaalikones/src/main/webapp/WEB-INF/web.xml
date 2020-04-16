@@ -43,22 +43,24 @@
     <servlet-name>Lisaa</servlet-name>
     <servlet-class>vaalikone.Lisaa</servlet-class>
   </servlet>
+ 
   
   <servlet>
     <servlet-name>PoistaK</servlet-name>
     <servlet-class>vaalikone.PoistaK</servlet-class>
   </servlet>
-  
-  <servlet-mapping>
-    <servlet-name>Lisaa</servlet-name>
-    <url-pattern>/Lisaa</url-pattern>
-  </servlet-mapping>
+ 
+   <servlet>
+    <servlet-name>MuokkaaK</servlet-name>
+    <servlet-class>vaalikone.MuokkaaK</servlet-class>
+  </servlet>
   
   
   <servlet-mapping>
     <servlet-name>PoistaK</servlet-name>
     <url-pattern>/PoistaK</url-pattern>
   </servlet-mapping>
+
   
   <session-config>
     <session-timeout>30</session-timeout>
