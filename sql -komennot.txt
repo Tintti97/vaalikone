@@ -1,0 +1,14 @@
+ADMIN TAULUKON LUONTI:
+
+create table admins
+(
+U_Id int(10) unsigned NOT NULL AUTO_INCREMENT,
+email varchar(255) DEFAULT NULL,
+password varchar(255) DEFAULT NULL,
+primary key(U_Id),
+UNIQUE KEY `U_Id` (`U_Id`)
+);
+
+ADMINIEN LISÄÄMINEN OHJELMAN ULKOPUOLELTA.
+
+INSERT INTO admins(email, password) VALUES ('admin@email.com', 'e7e941b1f09f266540c6780db51d5f58');
