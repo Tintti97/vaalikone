@@ -13,7 +13,7 @@ public class Login extends HttpServlet {
         response.setContentType("text/html;charset=UTF-8");
         PrintWriter out = response.getWriter();
         
-        // Testi kommentti Tintti
+        //Testi kommentti Teemu =)
         
         //Saadaan parametrit login.jsp sivulta testi
         String email = request.getParameter("email");
