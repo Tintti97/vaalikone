@@ -1,0 +1,8 @@
+INDEX VERSION 1.4+C:\software\eclipse\vaalikone\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+1791781481.index
+3673871376.index
+1339937102.index
+1542100174.index
+1445382915.index
+3366501974.index
+457850966.index
