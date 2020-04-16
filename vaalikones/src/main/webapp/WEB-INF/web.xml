@@ -62,7 +62,7 @@
   
   <servlet-mapping>
     <servlet-name>MuokkaaK</servlet-name>
-    <url-pattern>/MuokkaaKK</url-pattern>
+    <url-pattern>/MuokkaaK</url-pattern>
   </servlet-mapping>
   
   <servlet-mapping>

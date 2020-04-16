@@ -50,7 +50,7 @@
                
                <input type="hidden" name="id" value="${row.EHDOKAS_ID}">
 
-               <input type="submit" value="muokkaa">
+               <input type="submit" value="Muokkaa">
                
           
  				
