@@ -54,6 +54,16 @@
     <url-pattern>/Lisaa</url-pattern>
   </servlet-mapping>
   
+  <servlet>
+    <servlet-name>MuokkaaK</servlet-name>
+    <servlet-class>vaalikone.MuokkaaK</servlet-class>
+  </servlet>
+  
+  
+  <servlet-mapping>
+    <servlet-name>MuokkaaK</servlet-name>
+    <url-pattern>/MuokkaaKK</url-pattern>
+  </servlet-mapping>
   
   <servlet-mapping>
     <servlet-name>PoistaK</servlet-name>
