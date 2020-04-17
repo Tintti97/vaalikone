@@ -36,8 +36,8 @@
 	<input type="text" id="miksiEduskuntaan" name="miksiEduskuntaan" required><br><br>
 	<label for="mitaAsioitaHaluatEdistaa">Mitä asioita haluan edistää: </label>
 	<input type="text" id="mitaAsioitaHaluatEdistaa" name="mitaAsioitaHaluatEdistaa" required><br><br>
-	
 	<input id="submitnappi" type="submit" value="Lisää ehdokas">
+	<input id="submitnappi" type="submit" onclick="history.back()" value="Peruuta">
 </form>
 <%
 	//String message = (String) request.getAttribute("Message");

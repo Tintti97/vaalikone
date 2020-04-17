@@ -9,13 +9,26 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>LISTA EHDOKKAISTA</title>
+        <title>Poista ehdokas</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="style.css" rel="stylesheet" type="text/css">
         
     </head>
     <body>
+        <div id="container">
+            
+            <img id="headerimg" src="Logo.png" width="720" />
+            <div class="kysymys">
+                <h1>Poista ehdokas</h1>
+                <form action="AddEditRemoveCand.jsp">
+            		<input id="submitnappi" type="submit" value="Takaisin"/>
+           		</form>
+            </div>
+                <br>     
+                <br>
+                <br>
+        </div>
        
       <sql:setDataSource var = "snapshot" driver = "com.mysql.jdbc.Driver"
          url = "jdbc:mysql://localhost:3306/vaalikone"

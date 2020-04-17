@@ -78,6 +78,8 @@ input[type=password] {
     <input type="password" placeholder="Syötä salasana" name="pass" required>
 
     <button type="submit" value="login">Rekisteröidy</button>
+    <button type="submit" name="back" onclick="history.back()">Takaisin</button>
+    
     </div>
 </form>
 <!-- login-form loppuu -->

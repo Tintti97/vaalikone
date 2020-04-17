@@ -36,7 +36,11 @@ and open the template in the editor.
             <form action="Poista.jsp"> <!-- ohjaa Poista ehdokas -sivulle -->
             <input id="submitnappi" type="submit" value="Poista ehdokas" name="btnPoista" />
             </form>
-        
+            <br>
+            <br>
+            <form action="AdminPage.jsp"> <!-- takaisin admin-sivulle -->
+            <input id="submitnappi" type="submit" value="Takaisin ylläpitosivulle"/>
+            </form>
         </div>
     </body>
 </html>
