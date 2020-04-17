@@ -25,6 +25,6 @@
 			<attribute name="owner.project.facets" value="java"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="C:/Users/Tintti/Downloads/mysql-connector-java-5.1.19-bin.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Lauri/Documents/Kouluvuosi_2/Vaalikone/mysql-connector-java-5.1.19-bin.jar"/>
 	<classpathentry kind="output" path="build/classes"/>
 </classpath>
