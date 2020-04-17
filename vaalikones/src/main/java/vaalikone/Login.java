@@ -15,6 +15,7 @@ public class Login extends HttpServlet {
         
         //Testi kommentti jez =)
         //Testi kommentti O.O
+        //Testicommit by kallu, shoutout to teme for the tutorial
         
         //Saadaan parametrit login.jsp sivulta testi
         String email = request.getParameter("email");
