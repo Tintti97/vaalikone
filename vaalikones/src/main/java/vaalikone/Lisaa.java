@@ -45,7 +45,7 @@ public class Lisaa extends HttpServlet {
         //Luodaan uusi ehdokas-objekti
         Ehdokkaat ehdokas = new Ehdokkaat();
         
-        
+        //asdasd
 		
         /*
          * Ehdokkaan ID:n asettaminen
