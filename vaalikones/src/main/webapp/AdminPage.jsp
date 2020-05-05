@@ -24,8 +24,9 @@
             <form action="Register.jsp">  <!-- ohjaa rekisteröinti sivulle -->
             <input id="submitnappi" type="submit" value="Rekisteröi admin käyttäjä"/>
             </form>
-            <br>
-            <br>
+			<form action="LisaaK.jsp">  <!-- ohjaa Lisaa kysymys sivulle -->
+            <input id="submitnappi" type="submit" value="Lisaa kysymys"/>
+            </form>
             <form action="index.html"> <!-- takaisin etusivulle -->
             <input id="submitnappi" type="submit" value="Takaisin etusivulle"/>
             </form>
