@@ -61,13 +61,13 @@
   
   <!-- REST -->
   <servlet>
-  	<servlet-name><!-- nimi --></servlet-name>
+  	<servlet-name>LisaaK</servlet-name>
   	<servlet-class>
   		org.glassfish.jersey.servlet.ServletContainer
   	</servlet-class>
   	<init-param>
   		<param-name>jersey.config.server.provider.packages</param-name>
-  		<param-value><!-- packagen nimi --></param-value>
+  		<param-value>vaalikone</param-value>
   	</init-param>
   	
   	<load-on-startup>1</load-on-startup>
@@ -86,8 +86,8 @@
   
   <!-- REST -->
   <servlet-mapping>
-  	<servlet-name><!-- nimi --></servlet-name>
-  	<url-pattern><!-- url pattern --></url-pattern>
+  	<servlet-name>LisaaK</servlet-name>
+  	<url-pattern>/vaalikone/*</url-pattern>
   </servlet-mapping>
   
   <session-config>
