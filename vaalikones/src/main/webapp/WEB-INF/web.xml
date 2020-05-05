@@ -59,6 +59,20 @@
     <servlet-class>vaalikone.MuokkaaK</servlet-class>
   </servlet>
   
+  <!-- REST -->
+  <servlet>
+  	<servlet-name><!-- nimi --></servlet-name>
+  	<servlet-class>
+  		org.glassfish.jersey.servlet.ServletContainer
+  	</servlet-class>
+  	<init-param>
+  		<param-name>jersey.config.server.provider.packages</param-name>
+  		<param-value><!-- packagen nimi --></param-value>
+  	</init-param>
+  	
+  	<load-on-startup>1</load-on-startup>
+  </servlet>
+  
   
   <servlet-mapping>
     <servlet-name>MuokkaaK</servlet-name>
@@ -68,6 +82,12 @@
   <servlet-mapping>
     <servlet-name>PoistaK</servlet-name>
     <url-pattern>/PoistaK</url-pattern>
+  </servlet-mapping>
+  
+  <!-- REST -->
+  <servlet-mapping>
+  	<servlet-name><!-- nimi --></servlet-name>
+  	<url-pattern><!-- url pattern --></url-pattern>
   </servlet-mapping>
   
   <session-config>
