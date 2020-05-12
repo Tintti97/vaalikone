@@ -62,6 +62,7 @@ button:hover {
     opacity: 0.8;
 }
 
+
 @media screen and (max-width: 300px) {
     span.psw {
         display: block;
@@ -99,7 +100,9 @@ input[type=password] {
     <br>
     <p id="response"></p>
     </div>   
+    	<button type="submit" name="back" onclick="history.back()">Takaisin</button>
 </form>
-	<button type="submit" name="back" onclick="history.back()">Takaisin</button>
+
+
 </body>
 </html>
